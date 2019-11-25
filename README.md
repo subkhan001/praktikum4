@@ -1,3 +1,4 @@
+``
 print("==================================================================")
 print("|                 PROGRAM INPUT NILAI MAHASISWA                  |")
 print("==================================================================")
@@ -27,3 +28,4 @@ for item in nilai:
     print("| {no:2d} | {nama:12s} | {nim:9s} | {nilaiTugas:5d} | {nilaiUts:5d} | {nilaiUas:5d} | {nilaiAkhir:6.2f} |"
           .format(no=i, nama=item[0], nim=item[1], nilaiTugas=item[2], nilaiUts=item[3], nilaiUas=item[4], nilaiAkhir=item[5]))
 print("==================================================================")
+``
